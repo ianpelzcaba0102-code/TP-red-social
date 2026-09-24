@@ -1,0 +1,83 @@
+@model List<TP05_SESSIONS.Models.Publicacion>
+
+@{
+    ViewData["Title"] = "Red Social";
+}
+
+<div class="social-container">
+    <div class="social-header">
+        <div>
+            <h1>Red Social</h1>
+            <p>Bienvenido, <strong>@Context.Session.GetString("Usuario")</strong></p>
+        </div>
+        <a class="btn btn-outline-danger" href="/Usuario/Logout">Cerrar sesión</a>
+    </div>
+
+    @if (TempData["Mensaje"] != null)
+    {
+        <div class="alert alert-warning">@TempData["Mensaje"]</div>
+    }
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+            <h3>Crear publicación</h3>
+            <form action="/Publicacion/Crear" method="post">
+                <div class="mb-2">
+                    <input class="form-control" type="text" name="Titulo" placeholder="Título" />
+                </div>
+                <div class="mb-2">
+                    <textarea class="form-control" name="Descripcion" placeholder="¿Qué querés publicar?"></textarea>
+                </div>
+                <div class="mb-3">
+                    <input class="form-control" type="url" name="Imagen" placeholder="URL de la imagen" />
+                </div>
+                <button class="btn btn-primary" type="submit">Publicar</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="publicaciones">
+        @foreach (var publicacion in Model)
+        {
+            <article class="card mb-4 shadow-sm publicacion" data-id="@publicacion.IdPublicacion">
+                <img class="publicacion-imagen" src="@publicacion.Imagen" alt="Imagen de la publicación" />
+                <div class="card-body">
+                    <h2>@publicacion.Titulo</h2>
+                    <p class="text-muted">Publicado por <strong>@publicacion.NombreUsuario</strong> el @publicacion.FechaPublicacion.ToString("dd/MM/yyyy HH:mm")</p>
+                    <p>@publicacion.Descripcion</p>
+
+                    <button class="btn @(publicacion.UsuarioDioLike ? "btn-danger" : "btn-outline-danger") btn-like" onclick="cambiarLike(@publicacion.IdPublicacion, this)">
+                        ❤ Me gusta (<span class="cantidad-likes">@publicacion.CantidadLikes</span>)
+                    </button>
+
+                    <hr />
+                    <h5>Comentarios</h5>
+                    <div class="comentarios">
+                        @foreach (var comentario in publicacion.Comentarios)
+                        {
+                            <div class="comentario">
+                                <strong>@comentario.NombreUsuario</strong>
+                                <span>@comentario.Texto</span>
+                                <small>@comentario.FechaComentario.ToString("dd/MM/yyyy HH:mm")</small>
+                            </div>
+                        }
+                    </div>
+
+                    <div class="input-group mt-3">
+                        <input type="text" class="form-control comentario-texto" placeholder="Escribí un comentario..." />
+                        <button class="btn btn-primary" onclick="comentar(@publicacion.IdPublicacion, this)">Comentar</button>
+                    </div>
+                    <p class="mensaje-comentario text-danger mt-2"></p>
+                </div>
+            </article>
+        }
+    </div>
+
+    <div class="text-center mb-5">
+        <button id="btnVerMas" class="btn btn-secondary" onclick="verMas()">Ver más</button>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/redSocial.js" asp-append-version="true"></script>
+}

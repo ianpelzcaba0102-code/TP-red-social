@@ -1,0 +1,7 @@
+html { font-size: 14px; }
+body { background: #f5f5f5; }
+.social-container { max-width: 850px; margin: 30px auto; }
+.social-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:25px; }
+.publicacion-imagen { width:100%; max-height:500px; object-fit:cover; }
+.comentario { padding:10px 0; border-bottom:1px solid #ddd; display:flex; gap:10px; align-items:baseline; }
+.comentario small { color:#777; margin-left:auto; }

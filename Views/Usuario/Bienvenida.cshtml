@@ -1,0 +1,27 @@
+@model TP05_SESSIONS.Models.Usuario
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bienvenida</title>
+</head>
+
+<body>
+
+    <h1>Bienvenido</h1>
+
+    <p>Usuario: @Model.nombreUsuario</p>
+
+    <p>Nombre: @Model.nombre</p>
+
+    <p>Apellido: @Model.apellido</p>
+
+    <p>Tipo de Usuario: @Model.tipousuario</p>
+
+    <br/>
+
+    <a href="/Usuario/Logout">Cerrar sesión</a>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Registro</title>
+</head>
+
+<body>
+
+    <h1>Registrarse</h1>
+    <form action="/Usuario/Registro" method="post" onsubmit="return validarRegistro()">
+
+        <p>Usuario:</p>
+        <input type="text" name="nombreUsuario" id="nombreUsuario"/>
+
+        <p>Contraseña:</p>
+        <input type="password" name="contraseña" id="contraseña"/>
+
+        <p>Nombre:</p>
+        <input type="text" name="nombre" id="nombre" />
+
+        <p>Apellido:</p>
+        <input type="text" name="apellido" id="apellido"/>
+
+        <p>Tipo de Usuario:</p>
+        <select name="tipousuario" id="tipousuario">
+            <option value="">Seleccione</option>
+            <option value="Alumno">Alumno</option>
+            <option value="Docente">Docente</option>
+            <option value="Coordinador">Coordinador</option>
+            <option value="Padre">Padre</option>
+        </select>
+
+        <input type="submit" value="Registrarse" />
+
+    </form>
+    <p id="mensaje"></p>
+    <p>@ViewBag.Mensaje</p>
+    <a href="/Usuario/Login">Volver al Login</a>
+
+    <script src="~/Scripts/validaciones.js"></script>
+
+</body>
+</html>
