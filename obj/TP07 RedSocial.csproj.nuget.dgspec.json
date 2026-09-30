@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50154259\\Downloads\\TP07-RedSocial\\TP07-RedSocial\\TP07 RedSocial.csproj": {}
+    "Z:\\2026\\Programacion\\TP07-RedSocial\\TP07-RedSocial\\TP07 RedSocial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50154259\\Downloads\\TP07-RedSocial\\TP07-RedSocial\\TP07 RedSocial.csproj": {
+    "Z:\\2026\\Programacion\\TP07-RedSocial\\TP07-RedSocial\\TP07 RedSocial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50154259\\Downloads\\TP07-RedSocial\\TP07-RedSocial\\TP07 RedSocial.csproj",
+        "projectUniqueName": "Z:\\2026\\Programacion\\TP07-RedSocial\\TP07-RedSocial\\TP07 RedSocial.csproj",
         "projectName": "TP07 RedSocial",
-        "projectPath": "C:\\Users\\50154259\\Downloads\\TP07-RedSocial\\TP07-RedSocial\\TP07 RedSocial.csproj",
+        "projectPath": "Z:\\2026\\Programacion\\TP07-RedSocial\\TP07-RedSocial\\TP07 RedSocial.csproj",
         "packagesPath": "C:\\Users\\50154259\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50154259\\Downloads\\TP07-RedSocial\\TP07-RedSocial\\obj\\",
+        "outputPath": "Z:\\2026\\Programacion\\TP07-RedSocial\\TP07-RedSocial\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

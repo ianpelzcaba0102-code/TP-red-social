@@ -7,7 +7,6 @@ namespace TP05_SESSIONS.Models
         public string apellido { get; set; }
         public string nombreUsuario { get; set; }
         public string contraseña { get; set; }
-        public string tipousuario { get; set; }
 
         public string ValidarLogin()
         {
@@ -64,10 +63,6 @@ namespace TP05_SESSIONS.Models
                 {
                     return "El apellido solo puede contener letras y espacios";
                 }
-            }
-            if (tipousuario == null || tipousuario == "")
-            {
-                return "Seleccione un tipo de usuario";
             }
             if (nombreUsuario.Length < 4)
             {

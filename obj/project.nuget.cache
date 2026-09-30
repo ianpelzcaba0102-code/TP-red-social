@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xuC96E8MRYY=",
+  "dgSpecHash": "oZf9xJwmbrk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\50154259\\Downloads\\TP07-RedSocial\\TP07-RedSocial\\TP07 RedSocial.csproj",
+  "projectFilePath": "Z:\\2026\\Programacion\\TP07-RedSocial\\TP07-RedSocial\\TP07 RedSocial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\50154259\\.nuget\\packages\\dapper\\2.1.79\\dapper.2.1.79.nupkg.sha512",
     "C:\\Users\\50154259\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\2.3.10\\microsoft.aspnetcore.cryptography.internal.2.3.10.nupkg.sha512",

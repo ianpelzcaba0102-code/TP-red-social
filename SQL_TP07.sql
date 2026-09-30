@@ -20,8 +20,7 @@ BEGIN
         nombre VARCHAR(50) NOT NULL,
         apellido VARCHAR(50) NOT NULL,
         nombreUsuario VARCHAR(50) NOT NULL,
-        contraseña VARCHAR(50) NOT NULL,
-        tipousuario VARCHAR(50) NOT NULL
+        contraseña VARCHAR(50) NOT NULL
     );
 END
 ELSE IF COL_LENGTH('dbo.Usuario', 'IdUsuario') IS NULL

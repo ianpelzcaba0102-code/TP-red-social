@@ -34,7 +34,6 @@ function validarRegistro(){
     let contraseña =document.getElementById("contraseña").value;
     let nombre= document.getElementById("nombre").value;
     let apellido=document.getElementById("apellido").value;
-    let tipoUsuario= document.getElementById("tipousuario").value;
     let mensaje= document.getElementById("mensaje");
 
     if (usuario == ""){
@@ -52,10 +51,6 @@ function validarRegistro(){
     }
     if (apellido==""){
         mensaje.innerHTML= "Complete el apellido";
-        return false;
-    }
-    if (tipoUsuario== ""){
-        mensaje.innerHTML= "Seleccione un tipo de usuario";
         return false;
     }
     if (usuario.length<4){

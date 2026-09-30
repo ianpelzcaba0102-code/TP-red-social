@@ -30,7 +30,7 @@ namespace TP05_SESSIONS
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                string query = "INSERT INTO Usuario (nombre, apellido, nombreUsuario, contraseña, tipousuario) VALUES (@nombre, @apellido, @nombreUsuario, @contraseña, @tipousuario)";
+                string query = "INSERT INTO Usuario (nombre, apellido, nombreUsuario, contraseña) VALUES (@nombre, @apellido, @nombreUsuario, @contraseña)";
                 connection.Execute(query, usuario);
             }
         }
