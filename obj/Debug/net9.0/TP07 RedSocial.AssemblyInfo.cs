@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP07 RedSocial")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f35526bfed60cb8839d98e64c88a4ad7b66c9d6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80463971470effc0463942320e1c6b4a7f6b2567")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP07 RedSocial")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP07 RedSocial")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

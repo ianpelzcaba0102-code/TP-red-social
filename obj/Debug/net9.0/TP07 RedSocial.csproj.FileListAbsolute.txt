@@ -211,7 +211,6 @@ Z:\2026\Programacion\TP07-RedSocial\TP07-RedSocial\obj\Debug\net9.0\scopedcss\pr
 Z:\2026\Programacion\TP07-RedSocial\TP07-RedSocial\obj\Debug\net9.0\compressed\hwqeqgttjj-p5h9cyu6ua.gz
 Z:\2026\Programacion\TP07-RedSocial\TP07-RedSocial\obj\Debug\net9.0\compressed\h0hj4vxzeo-61n19gt1b8.gz
 Z:\2026\Programacion\TP07-RedSocial\TP07-RedSocial\obj\Debug\net9.0\compressed\5y3nucszrs-lk9lx65ef3.gz
-Z:\2026\Programacion\TP07-RedSocial\TP07-RedSocial\obj\Debug\net9.0\compressed\4jdacjktfv-eqqjoxfob0.gz
 Z:\2026\Programacion\TP07-RedSocial\TP07-RedSocial\obj\Debug\net9.0\compressed\j2s9k1lqzn-bqjiyaj88i.gz
 Z:\2026\Programacion\TP07-RedSocial\TP07-RedSocial\obj\Debug\net9.0\compressed\xjvg9iltdh-c2jlpeoesf.gz
 Z:\2026\Programacion\TP07-RedSocial\TP07-RedSocial\obj\Debug\net9.0\compressed\8ngso1mni1-erw9l3u2r3.gz
@@ -283,3 +282,4 @@ Z:\2026\Programacion\TP07-RedSocial\TP07-RedSocial\obj\Debug\net9.0\refint\TP07 
 Z:\2026\Programacion\TP07-RedSocial\TP07-RedSocial\obj\Debug\net9.0\TP07 RedSocial.pdb
 Z:\2026\Programacion\TP07-RedSocial\TP07-RedSocial\obj\Debug\net9.0\TP07 RedSocial.genruntimeconfig.cache
 Z:\2026\Programacion\TP07-RedSocial\TP07-RedSocial\obj\Debug\net9.0\ref\TP07 RedSocial.dll
+Z:\2026\Programacion\TP07-RedSocial\TP07-RedSocial\obj\Debug\net9.0\compressed\4jdacjktfv-vrv4gi7zsm.gz
